@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Gerenciador de Alunos</title>
+</head>
+<body>
+
+<h1>	Bem Vindo ao Gerenciador de Alunos 	<br> </h1>
+
+<form action="AlunoController" method="POST">
+
+	<label>		Nome:	</label>
+	<input type= "text" name= "nome"> <br>
+	
+	<label>		CPF:	</label>
+	<input type= "text" name= "cpf"> <br>
+	
+	<label>		RG:	</label>
+	<input type= "text" name= "rg"> <br>
+	
+	<label>Sexo: </label>
+	<select name = "Sexo">
+		<option value = "Masculino">Masculino </option>
+		<option value = "Feminino">Feminino </option>
+		
+	</select>
+	<br>
+	
+	<label>Estado: </label>
+	<select name= "estado"> 
+		<option value ="Mato Grosso do Sul "> Mato Grosso do Sul </option>
+		<option value ="Mato Grosso ">Mato Grosso </option>
+		<option value ="São Paulo">São Paulo </option>
+		<option value ="Rio de Janeiro">Rio de Janeiro </option>
+		<option value ="Rio Grande do Sul ">Rio Grande do Sul </option>
+		<option value ="Rio Grande do Norte">Rio Grande do Norte </option>
+		<option value ="Rio Grande do Sul">Rio Grande do Sul </option>
+		<option value ="Distrito Federal ">Distrito Federal </option>
+	
+	 </select>
+	
+	
+	<input type= "submit" value="Salvar">
+
+</form>
+
+
+</body>
+</html>
